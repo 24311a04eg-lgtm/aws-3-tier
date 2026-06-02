@@ -36,7 +36,7 @@ This project provided practical hands-on experience with:
 
 # Architecture Diagram
 
-![Architecture Diagram](screenshots/architecture.png)
+![Architecture Diagram](screenshots/architecture.jpg)
 
 ---
 
@@ -54,17 +54,20 @@ This project provided practical hands-on experience with:
 # Technology Stack
 
 ## Frontend
+
 - React.js
 - Styled Components
 - React Router
 - NGINX
 
 ## Backend
+
 - Node.js
 - Express.js
 - MySQL
 
 ## AWS Services
+
 - Amazon EC2
 - Amazon RDS
 - Application Load Balancer
@@ -90,6 +93,7 @@ This project provided practical hands-on experience with:
 
 # Project Structure
 
+```text
 3TIER-AWS/
 
 ├── app-tier/
@@ -122,6 +126,7 @@ This project provided practical hands-on experience with:
 ├── screenshots/
 │
 └── README.md
+```
 
 ---
 
@@ -161,15 +166,15 @@ DELETE /transaction
 
 # Project Screenshots
 
-![Screenshot](screenshots/Screenshot 2026-03-08 160633.png)
+![Screenshot](screenshots/Screenshot%202026-03-08%20160633.png)
 
-![Screenshot](screenshots/Screenshot 2026-03-08 160645.png)
+![Screenshot](screenshots/Screenshot%202026-03-08%20160645.png)
 
-![Screenshot](screenshots/Screenshot 2026-03-08 160704.png)
+![Screenshot](screenshots/Screenshot%202026-03-08%20160704.png)
 
-![Screenshot](screenshots/Screenshot 2026-03-08 161102.png)
+![Screenshot](screenshots/Screenshot%202026-03-08%20161102.png)
 
-![Screenshot](screenshots/Screenshot 2026-03-08 171235.png)
+![Screenshot](screenshots/Screenshot%202026-03-08%20171235.png)
 
 ---
 
