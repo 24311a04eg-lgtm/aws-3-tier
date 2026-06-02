@@ -1,6 +1,6 @@
 # AWS Three-Tier Web Application
 
-A three-tier web application deployed on AWS using React, Node.js, NGINX, and Amazon RDS.
+A three-tier web application deployed on AWS using React, Node.js, NGINX, and Amazon RDS, Ec2
 
 This project demonstrates deployment of a frontend, backend API, and database layer using AWS infrastructure components including EC2, Load Balancers, VPC networking, and RDS.
 
@@ -137,8 +137,7 @@ The original AWS workshop implementation was improved and refactored for better 
 | Area | Improvements |
 |------|------|
 | Database Connections | Implemented MySQL connection pooling |
-| SQL Security | Used parameterized queries to prevent SQL injection |
-| Configuration | Added environment variable support |
+| Configuration | Added environment-based configuration management |
 | Error Handling | Added improved API response handling |
 | Backend Structure | Cleaned and modularized backend logic |
 
