@@ -1,16 +1,26 @@
 # AWS Three-Tier Web Application
 
-A three-tier web application deployed on AWS using React, Node.js, NGINX, and Amazon RDS, Ec2
+![AWS](https://img.shields.io/badge/AWS-orange?logo=amazonaws&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?logo=amazonaws&logoColor=white)
+![RDS](https://img.shields.io/badge/RDS-527FFF?logo=amazonrds&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+![VPC](https://img.shields.io/badge/VPC-Networking-232F3E?logo=amazonaws&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-success)
+
+A three-tier web application deployed on AWS using React, Node.js, NGINX, and Amazon RDS, EC2.
 
 This project demonstrates deployment of a frontend, backend API, and database layer using AWS infrastructure components including EC2, Load Balancers, VPC networking, and RDS.
 
-This project was implemented by following and customizing the AWS workshop below:
+This project was inspired by following and customizing the AWS workshop below:
 
 [AWS 3 Tier Workshop](https://github.com/aws-samples/aws-three-tier-web-architecture-workshop)
 
 ---
 
-# Project Overview
+## Project Overview
 
 This application follows the three-tier architecture pattern:
 
@@ -20,7 +30,7 @@ This application follows the three-tier architecture pattern:
 
 ---
 
-# Learning Objectives
+## Learning Objectives
 
 This project provided practical hands-on experience with:
 
@@ -34,13 +44,13 @@ This project provided practical hands-on experience with:
 
 ---
 
-# Architecture Diagram
+## Architecture Diagram
 
 ![Architecture Diagram](screenshots/architecture.jpg)
 
 ---
 
-# Architecture Flow
+## Architecture Flow
 
 1. Users access the frontend application through the public Application Load Balancer.
 2. NGINX serves the React frontend and handles routing.
@@ -51,23 +61,20 @@ This project provided practical hands-on experience with:
 
 ---
 
-# Technology Stack
+## Technology Stack
 
-## Frontend
-
+### Frontend
 - React.js
 - Styled Components
 - React Router
 - NGINX
 
-## Backend
-
+### Backend
 - Node.js
 - Express.js
 - MySQL
 
-## AWS Services
-
+### AWS Services
 - Amazon EC2
 - Amazon RDS
 - Application Load Balancer
@@ -78,7 +85,7 @@ This project provided practical hands-on experience with:
 
 ---
 
-# Key Features
+## Key Features
 
 - Three-tier architecture deployment
 - Internal and external load balancing
@@ -91,7 +98,7 @@ This project provided practical hands-on experience with:
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
 3TIER-AWS/
@@ -130,7 +137,7 @@ This project provided practical hands-on experience with:
 
 ---
 
-# Improvements Beyond the Original Workshop
+## Improvements Beyond the Original Workshop
 
 The original AWS workshop implementation was improved and refactored for better reliability and maintainability.
 
@@ -143,27 +150,21 @@ The original AWS workshop implementation was improved and refactored for better 
 
 ---
 
-# API Endpoints
+## API Endpoints
 
-## Health Check
-
+### Health Check
 GET /health
 
-## Transaction APIs
-
+### Transaction APIs
 POST   /transaction
-
 GET    /transaction
-
-GET    /transaction/id
-
-DELETE /transaction/id
-
+GET    /transaction/:id
+DELETE /transaction/:id
 DELETE /transaction
 
 ---
 
-# Project Screenshots
+## Project Screenshots
 
 ![Screenshot](screenshots/Screenshot%202026-03-08%20160633.png)
 
@@ -177,7 +178,7 @@ DELETE /transaction
 
 ---
 
-# Learning Outcomes
+## Learning Outcomes
 
 Through this project I gained practical experience with:
 
@@ -192,6 +193,6 @@ Through this project I gained practical experience with:
 
 ---
 
-# License
+## License
 
-This project was created for educational and learning purposes based on the AWS sample workshop.
+MIT License — feel free to use and build on this project.
